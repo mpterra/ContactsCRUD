@@ -26,7 +26,7 @@ public class EnviarEmail {
 	@Override
 	public String toString() {
 		return "Dear Mr(s) " + pessoa.getNome() + ",\n" + "Thank you for your contact and interest.\n"
-				+ "Our International Relation Office will contact you to develop our partnership.\n"
+				+ "Our International Affairs Office will contact you to develop our partnership.\n"
 				+ "Yours sincerely,\n\n" + "Name \n" + "Head of International Affairs\n"
 				+ "Company";
 	}
@@ -77,7 +77,7 @@ public class EnviarEmail {
 			Message message = new MimeMessage(session);
 			message.setFrom(new InternetAddress(username));
 			message.setRecipients(Message.RecipientType.TO, InternetAddress.parse(pessoa.getEmail()));
-			message.setSubject("Thank you for your contact with FURG!");
+			message.setSubject("Thank you for your contact with our company!");
 			message.setText(this.toString());
 
 			// Envio da mensagem

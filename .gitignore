@@ -1,0 +1,52 @@
+# =========================
+# Eclipse
+# =========================
+.classpath
+.project
+.settings/
+
+# =========================
+# NetBeans
+# =========================
+nbactions.xml
+nb-configuration.xml
+
+# =========================
+# Maven
+# =========================
+target/
+
+# =========================
+# Build output
+# =========================
+bin/
+
+# =========================
+# Bibliotecas locais
+# =========================
+*.jar
+
+# =========================
+# Banco de dados local
+# =========================
+*.db
+
+# =========================
+# Arquivos temporários e logs
+# =========================
+*.log
+*.tmp
+*.bak
+*.swp
+*~
+
+# =========================
+# Sistema Operacional
+# =========================
+# macOS
+.DS_Store
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
+

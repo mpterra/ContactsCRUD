@@ -27,8 +27,8 @@ public class EnviarEmail {
 	public String toString() {
 		return "Dear Mr(s) " + pessoa.getNome() + ",\n" + "Thank you for your contact and interest.\n"
 				+ "Our International Relation Office will contact you to develop our partnership.\n"
-				+ "Yours sincerely,\n\n" + "PhD. Milton L. Asmus\n" + "Head of International Affairs\n"
-				+ "Federal University of Rio Grande - FURG";
+				+ "Yours sincerely,\n\n" + "Name \n" + "Head of International Affairs\n"
+				+ "Company";
 	}
 
 	public void enviar() {
